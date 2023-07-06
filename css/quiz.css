@@ -1,0 +1,106 @@
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(69, 180, 232, 0.8), rgba(4, 29, 97, 0.5)), url(/quizbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img {
+    width: 5.5rem;
+    height: 5.0rem;
+    border-radius: 50%;
+}
+.img {
+    position: fixed;
+}
+#title {
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(5, 5, 94);
+    background-color: rgba(11, 5, 39, 0.55);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.questions {
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(1, 62, 71, 0.852);
+    cursor: default;
+    border-radius: 1rem;
+}
+#question {
+    margin-bottom: 1rem;
+}
+.option {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0,1rem rgb(255, 255, 255);
+    width: 15rem;
+    background: rgb(80, 150, 197);
+    border-radius: 1rem;
+}
+.option:hover {
+    color:rgb(255, 255, 255)
+}
+ol {
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(255, 255, 255);
+}
+span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer {
+    margin-top: 2.5rem;
+}
+#stat {
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}
+.buttons {
+    text-align: center;
+}
+button {
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(93,53,156,0.98);
+    background: rgba(64, 177, 19, 0.82);
+}
+button:active {
+    background: rgb(2, 2, 91);
+}
+#scoreboard,#answerBank {
+    width: 20rem;
+    background: rgba(97, 110, 182, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title {
+    margin: 1rem 0;  
+}
+#score-btn,#check-answer {
+    margin-top: 1rem;
+}
+#score {
+    font-size: 2.5rem;
+}
+#answerBank li {
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers {
+    margin-top: 1rem;
+}
